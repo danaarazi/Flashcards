@@ -1,4 +1,5 @@
 /**
+ * Adding a change to commit to git will delete in a second
  * Created by danaarazi on 3/31/17.  This has three separate functions designed to take a list of words and present
  * them to the user in three different formats.
  * 1: In the order the list is created
