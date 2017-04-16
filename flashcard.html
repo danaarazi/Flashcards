@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Flash Card Web App</title>
+</head>
+<body>
+    <p> This is a flash card app</p>
+    <p id="demo"></p>
+    <script src="flashCard.js"></script>
+
+    <button onclick="chooseYourOwnAdventure('./list.txt', 'order')">Ordered list Word</button>
+    <button onclick="chooseYourOwnAdventure('./list.txt', 'random')">Random list Word</button>
+    <button onclick="chooseYourOwnAdventure('./list.txt', 'noRepeat')">Random non repeating list Word</button>
+    <p></p>
+    <button onclick="chooseYourOwnAdventure('./list.txt', 'order', 'back')">Ordered Go Back</button>
+    <button onclick="chooseYourOwnAdventure('./list.txt', 'random', 'back')">Random Go Back</button>
+    <button onclick="chooseYourOwnAdventure('./list.txt', 'noRepeat', 'back')">Random non repeating Go Back</button>
+
+
+
+</body>
+</html>
