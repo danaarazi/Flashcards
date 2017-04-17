@@ -73,7 +73,7 @@ function randomGoBack ()
         backOne = rememberRandom.length - randomPlacement;
         randomPlacement += 1;  // increments going back by one more choice. this gets reset then a new random word is generated
         if (backOne < 0) { //check to see if we are at the beginning of the list
-            document.getElementById("demo").innerHTML = "This is the beginning of the list";
+            document.getElementById("demo").innerHTML = "Beginning of the list";
         } else { // choose the number at the position "backOne" in array rememberRandom
             document.getElementById("demo").innerHTML = cardList[rememberRandom[backOne]];
         }
@@ -127,7 +127,7 @@ function arrayLength (listOfWords,back3) // this function is for the ordered wor
         if (back3 === 'back'){
             j -= 1;
             if (j < 1){
-                return "This is the beginning of the list";
+                return "Beginning of the list";
             } else {
                 return cardList[j-1];
             }

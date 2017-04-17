@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Flash Card Web App</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<div class="container">
-<header class="header" id="main">
-  <h4 class="logo">This is a flash card app</h4>
-</header>
-<section class="results">
-  <h1 id="demo">g&nbsp;</h1>
-</section>
-<script src="flashCard.js"></script>
+	<head>
+		<meta charset="UTF-8">
+		<title> Flash Card Web App</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="flashCard.js"></script>
+	</head>
+	<body>
+	<div class="container">
+	  <header class="header" id="main">
+			  <h4 class="logo">Flash Card App</h4>
+			</header>
+	  <section class="results">
+			  <h1 id="demo">Words Here Place holder&nbsp;</h1>
+			</section>
 
-  <section>
-      <table width="500" border="0">
-<tbody id="button_table">
-        <tr>
-            <td><button onclick="chooseYourOwnAdventure('./list.txt', 'order')">Ordered list Word</button></td>
-            <td><button onclick="chooseYourOwnAdventure('./list.txt', 'random')">Random list Word</button></td>
-            <td><button onclick="chooseYourOwnAdventure('./list.txt', 'noRepeat')">Random non repeating list Word</button></td>
-          </tr>
-          <tr>
-            <td><button onclick="chooseYourOwnAdventure('./list.txt', 'order', 'back')">Ordered Go Back</button></td>
-            <td><button onclick="chooseYourOwnAdventure('./list.txt', 'random', 'back')">Random Go Back</button></td>
-            <td><button onclick="chooseYourOwnAdventure('./list.txt', 'noRepeat', 'back')">Random non repeating Go Back</button></td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-          </tr>
-        </tbody>
-      </table>
-</section>
-<p></p>
-</div>
-
-
-</body>
+	  <div class="spacer"> &nbsp;</div>
+	  <div class="buttons">
+	    <div class="thumbnail">
+	      <button class="button" onclick="chooseYourOwnAdventure('./list.txt', 'order')">
+			<h4 class="button_text">Ordered</h4>
+          </button>
+        </div>
+	    <div class="thumbnail">
+	      <button class="button" onclick="chooseYourOwnAdventure('./list.txt', 'random')">
+<h4 class="button_text">Randomized</h4>
+          </button>
+        </div>
+	    <div class="thumbnail">
+	      <button class="button" onclick="chooseYourOwnAdventure('./list.txt', 'noRepeat')">
+<h4 class="button_text">Non-repeating</h4>
+          </button>
+        </div>
+      </div>
+	  <div class="buttons">
+				<div class="thumbnail"> 
+				  <button class="button" onclick="chooseYourOwnAdventure('./list.txt', 'order', 'back')">
+<h4 class="button_text">go back</h4>
+				  </button>
+				</div>
+				<div class="thumbnail">
+				  <button class="button" onclick="chooseYourOwnAdventure('./list.txt', 'random', 'back')">
+<h4 class="button_text">go back</h4>
+				  </button>
+				</div>
+				<div class="thumbnail">
+				  <button class="button" onclick="chooseYourOwnAdventure('./list.txt', 'noRepeat', 'back')">
+<h4 class="button_text">go back</h4>
+				  </button>
+				</div>
+			</div>
+			<footer>Content for New footer Tag Goes Here</footer>
+	  </div>
+	</body>
 </html>
