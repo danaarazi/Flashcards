@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #355474;
+	margin: 0;
+}
+.container {
+	background-color: #355474;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container #main {
+	height: 8%;
+}
+.logo {
+	font-weight: bold;
+	color: #BFA23F;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin-left: auto;
+	letter-spacing: 5px;
+	margin-right: auto;
+	text-shadow: 1px 1px #E8DEBB;
+	line-height: 2em;
+	font-size: 44px;
+}
+.container .results {
+	width: 50%;
+	height: 8%;
+	font-weight: bold;
+	color: #BFA23F;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	margin-left: auto;
+	letter-spacing: 5px;
+	margin-right: auto;
+	text-shadow: 1px 1px #E8DEBB;
+	line-height: 2em;
+	font-size: 44px;
+	min-height: 8%;
+}
+section table #button_table {
+	width: 100%;
+}
