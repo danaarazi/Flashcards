@@ -60,7 +60,7 @@ body {
 	line-height: 2em;
 	font-size: 55px;
 	min-height: 150px;
-/*	padding-bottom: 3%;*/
+
 }
 .container .buttons {
 	/*background-color: brown;*/
@@ -71,7 +71,6 @@ body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	/*max-height: 100px;*/
 }
 .container .buttons .thumbnail .button {
 	background-color: #355474;
@@ -79,11 +78,8 @@ body {
 	width: 30%;
 	float: left;
 	height: 100px;
-	/*padding-right: 1%;
-	padding-left: 1%;*/
 	margin-left: 2%;
 	margin-right: 1%;
-	/*margin-bottom: 10%;*/
 	border-radius: 25px;
 	margin-top: auto;
 }
@@ -106,10 +102,53 @@ body {
 }
 
 @media (max-width: 320px){
-	
+	.logo {
+	font-weight: normal;
+	text-shadow: 0px 0px #E8DEBB;
+	font-size: 20px;
+	}
+	.container .spacer {
+	height: 100px;
+	}
+	.container .results {
+		min-height: 200px;
+		font-size: 40px;
+		width: 100%;
+	}
+	.container table {
+	font-size: 20px;
+	font-weight: normal;
+	text-shadow: 0px 0px #E8DEBB;
+	}
+	.thumbnail .button .button_text {
+	font-size: 15px;
+	text-transform: capitalize;
+	margin-top: auto;
+	}
+
 }
 @media (min-width: 321px)and (max-width: 767px){
-	
+	.logo {
+	font-size: 20px;
+	}
+	.container .spacer {
+	height: 100px;
+	}
+	.container .results {
+		min-height: 200px;
+		font-size: 40px;
+		width: 100%;
+	}
+	.container table {
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0px 0px #E8DEBB;
+	}
+	.thumbnail .button .button_text {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-top: auto;
+	}
 }
 @media (min-width: 768px) and (max-width: 1096px){
 	
