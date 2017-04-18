@@ -58,9 +58,15 @@ function goBack(){
 
 function saveForlater(){
     saveThisWord = document.getElementById("demo").innerHTML;
-    console.log(saveThisWord);
-    reviewList.push(saveThisWord);
-    document.getElementById("demo").innerHTML = "<font size=\"30px\"> Saved \" " + saveThisWord +"\" for review </font>";
+    if (saveThisWord.length < 16){
+        console.log(saveThisWord);
+        reviewList.push(saveThisWord);
+        document.getElementById("demo").innerHTML = "<font size=\"30px\"> Saved \" " + saveThisWord +"\" for review </font>";
+    } else {
+        console.log(saveThisWord + " is too long");
+        document.getElementById("demo").innerHTML = "<font size=\"30px\"> error \" " + saveThisWord +"\" is too long </font>";
+    }
+
 
 }
 /**
