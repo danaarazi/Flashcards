@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855875b9-fac1-481a-9c04-e01500908708" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/.idea/_notes/dwsync.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/_notes/dwsync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flashCard.js" afterPath="$PROJECT_DIR$/flashCard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flashcard.html" afterPath="$PROJECT_DIR$/flashcard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -188,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1492356183394</updated>
       <workItem from="1492356185014" duration="1914000" />
-      <workItem from="1492528244618" duration="9592000" />
+      <workItem from="1492528244618" duration="9794000" />
     </task>
     <task id="LOCAL-00001" summary="just testing a commit from webstorm">
       <created>1492361437297</created>
@@ -201,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11506000" />
+    <option name="totallyTimeSpent" value="11708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="0" />

@@ -96,6 +96,14 @@ body {
 	font-size: 30px;
 	width: 100%;
 }
+.container footer {
+	color: #66202D;
+	
+}
+
+.container footer a:link, a:visited {
+	color: #45161E;
+}
 
 @media (max-width: 320px){
 	
