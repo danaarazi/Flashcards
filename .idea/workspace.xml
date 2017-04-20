@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855875b9-fac1-481a-9c04-e01500908708" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_notes/dwsync.xml" afterPath="$PROJECT_DIR$/_notes/dwsync.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -193,7 +192,7 @@
       <updated>1492356183394</updated>
       <workItem from="1492356185014" duration="1914000" />
       <workItem from="1492528244618" duration="9799000" />
-      <workItem from="1492560365584" duration="1085000" />
+      <workItem from="1492560365584" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="just testing a commit from webstorm">
       <created>1492361437297</created>
@@ -206,11 +205,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12798000" />
+    <option name="totallyTimeSpent" value="12977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1556791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
