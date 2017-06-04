@@ -130,7 +130,16 @@ function entireListTable(file1) //this function is called when a button is click
             if(rawFile.status === 200 || rawFile.status === 0) //checks for status ok from server
             {
                 var allText = rawFile.responseText;
+				allText = allText.toLowerCase();
                 cardList = allText.split("\n");
+				cardList = cardList.sort();
+				for (var x=0; x<=cardList.lenght; x=x+1){
+					if (cardList[x]=="i"){
+						cardList[x]="I";
+						console.log("in the I loop");
+					}
+					console.log("in the for loop for I");
+				}
                 console.log("cardlist length is : " + cardList.length);
                 myTable = createTheTable(cardList);
                 document.getElementById("demo").innerHTML = myTable;
@@ -162,6 +171,7 @@ function orderedWords(file3) //this function is called when a button is clicked 
             {
                 var allText = rawFile.responseText;
                 cardList = allText.split("\n");
+				cardList = cardList.sort();
                 lengthIs = cardList.length;
                 console.log("this is the length", lengthIs);
                 i = arrayLength(lengthIs); //calls the function to increment the number
